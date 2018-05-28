@@ -1,0 +1,122 @@
+body{
+	background-color: #E6E6FA;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+button{
+	background-color: #7f7fe6;;
+	border: 2px solid #7f7fe6;
+	font-size: 20px;
+	padding: 32px 16px;
+	float: center;
+}
+
+button:hover{
+	font-size: 30px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.gdd{
+	text-align: center;
+	color: #00008B;
+	font-size: 45px;
+
+}
+.vosinfo{
+	background-color: #D3D3D3;
+}
+.VI{
+	color:  #00008B;
+	font-weight: bold;
+
+}
+.votrerepas{
+	background-color: #D3D3D3;
+}
+.VR{
+	color:  #00008B;
+	font-weight: bold;
+}
+.def{
+	color:#DAA520;
+	font-size: 20px;
+}
+.h{
+	font-size: 15px;
+	font-family: Comic Sans MS;
+	color: #A52A2A;
+}
+.chomme{
+	font-weight: bold;
+	font-size: 17px;
+
+}
+.cfemme{
+	font-weight: bold;
+	font-size: 17px;
+	
+}
+.femm{
+	position: absolute;
+	left: 720px;
+	top: 200px;
+	font-family: Comic Sans MS;
+	color: #A52A2A;
+}
+.homm{
+	font-family: Comic Sans MS;
+	border: 3px #00008B dashed;
+	color: #A52A2A;
+}
+.info1{
+	position: relative;
+	left: 150px;
+}
+.info2{
+	position: absolute;
+	left: 850px;
+	bottom: 150px;
+}
+.ensplat2{
+	position: absolute;
+	left: 600px;
+	top: 710px;
+}
+.ensplat3{
+	position: absolute;
+	left: 1000px;
+	top: 710px;
+}
+.menunav{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 180px;
+}
+
+.resultat1{
+	background-color: green;
+	opacity: 0;
+}
+.resultat2{
+	background-color: red;
+	position: relative;
+	top: -117px;
+	opacity: 0;
+}
+.resultat3{
+	background-color: green;
+	position: relative;
+	top: -234px;
+	opacity: 0;
+}
+.resultat4{
+	background-color: green;
+	position: relative;
+	top: -350px;
+	opacity: 0;
+}
+.dvalid{
+	padding-top: 10px;
+	padding-left: 500px;
+}

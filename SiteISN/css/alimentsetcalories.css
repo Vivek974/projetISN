@@ -1,0 +1,102 @@
+body{
+	background-color: #FAFAD2;
+}
+td{
+	border: 1px solid black;
+}
+button{
+	background-color: #5F04B4;;
+	border: 2px solid #5F04B4;
+	font-size: 20px;
+	padding: 32px 16px;
+	float: center;
+}
+
+button:hover{
+	font-size: 30px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.titres{
+	color: #D02090;
+	font-family: Verdana;
+	font-weight: bold;
+}
+.ac{
+	color: #DAA520
+}
+.pl{
+	position: absolute;
+	left: 500px;
+	top: 1000px;
+}
+
+
+.FL{
+	position: absolute;
+	left: 500px;
+	top: 550px;
+
+}
+.pates{
+	position:absolute;
+	left: 500px;
+	top: 1320px;
+}
+.oh{
+	position: absolute;
+	left: 500px;
+	top: 1600px;
+}
+
+.intro2{
+	text-align: justify;
+	font-family:trebuchet, helvetica, sans-serif;
+	color: #800080;
+}
+
+.categorie{
+	color: #800080;
+
+}
+.balance{
+	position: absolute;
+	left: 500px;
+}
+.gdtitre{
+	text-align: center;
+	color: #008B8B;
+
+}
+.gdtitre:hover{
+	color: green;
+
+}
+
+td:hover{
+	font-size: large;
+}
+
+.centre{
+	position: absolute;
+	left: 400px;
+	top: 80px;
+}
+
+.bande2{
+	position:absolute;
+	left: 950px;
+	top: 80px;
+}
+.cat{
+	border: 2px dotted #800080;
+}
+.cat{
+	position: fixed;
+	left: 990px
+}
+.menu{
+	color: red;
+
+}

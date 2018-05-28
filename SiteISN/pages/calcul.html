@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Calculer ses calories</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/calcul.css">
+		<script type="text/javascript" src="../script/calcul.js"></script>
+	</head>
+		<body>
+			<h1 class="gdd">Calculer ses calories</h1>
+			<p class="def"> Comme les calories non dépensées par l'organisme sont stockées et nous font prendre du poids, deux questions s'imposent. La première, c'est de savoir combien de calories nous absorbons, et combien nous dépensons.</p> 
+			<p class="h">Bien sûr, le nombre de calories à consommer au quotidien varie d’une personne à l’autre. Outre la taille, le poids, l’activité physique, la santé, le sexe joue lui aussi un rôle important. Pour vous y retrouver plus facilement, voici une moyenne du besoin calorique journalier des hommes et des femmes en fonction de l’activité physique. </p>
+			<div class="homm">
+				<h2 class="chomme">Chez les Hommes</h2>
+				<li>Moins de 30 minutes d’activité : environ 2100-2500 kcal/jour</li>
+				<li>30 à 60 minutes d’activité physique : environ 2500-2700/jour</li>
+				<li>Plus d’une heure d’activité : environ 3000-3500 kcal/jour</li>
+			</div>
+			<div class="femm">
+				<h3 class="cfemme">Chez les Femmes</h3>
+				<li>Moins de 30 minutes d’activité : environ 1800-2000 kcal/jour</li>
+				<li>30 à 60 minutes d’activité physique : environ 2000-2200/jour</li>
+				<li>Plus d’une heure d’activité : environ 2400-2800 kcal/jour</li>
+			</div>
+
+		<script type="text/javascript" src="../script/menu.js"></script>
+			
+				<div class="vosinfo">
+					<fieldset>
+					<legend class="VI">Vos Informations</legend>
+
+					<div class="info1">
+						<p>Nous aimerions savoir si vous êtes un Homme ou une Femme <br/></p>
+
+						<select class="sexe" id="sexe">
+							<option value="rien">Sélectionnez votre réponse</option>
+							<option value="femme">Femme</option>
+							<option value="homme">Homme</option>
+						</select>
+
+						<p>Quel âge avez vous ?</p>
+						<input type="number" name="age" id="age" min="1" max="100" step="1" required>
+
+						<p>Combien mesurez vous en mètres ?</p>
+
+						<input type="number" name="taille" id="taille" min="1.00" max="2.30" step="0.01" required>
+					</div>
+
+					<div class="info2">
+						<p>Combien pesez vous en kilogrammes ?</p>
+
+						<input type="number" name="poids" id="poids" min="30" max="200" step="1" required >
+
+						<p>
+						<p>Votre activité sportive est : </br></p>
+
+						<select name="act" id="act">
+
+							<option value="rien">Sélectionnez votre réponse</option>
+							<option value=1.375>Sédentaire</option>
+							<option value=1.56>Activité physique Légère</option>
+							<option value=1.64>Activité Physique Modérée</option>
+							<option value=1.82>Activité Physique Intense</option>
+
+						</select>
+
+
+						</p>
+						
+						<p>
+							<p>Vos attentes sont :</br><p>
+							<select name="attentes" id="attentes" >
+
+								<option value="rien">Sélectionnez votre réponse</option>
+								<option value="maintien">Garder votre poids</option>
+								<option value="grossir">Prendre du poids</option>
+								<option value="maigrir">Perdre du poids</option>
+
+							</select>
+						</p>
+					</div>
+
+				
+				</fieldset>
+				</div>
+
+				<div  class="votrerepas">
+
+					<fieldset>
+						<legend class="VR">Votre Repas</legend>
+
+						<div class="ensplat1">
+
+							<div class="dplat1">
+								<p>Plat numéro 1</p>
+								<select name="plat1" id="plat1"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+								<p>Combien de verre / Quantité en gramme</p>
+								<input type="number" min="1" max="1000" step="1" name="qte1" id="qte1" />
+							</div>
+
+							<p>Plat numéro 2</p>
+							<select name="plat2" id="plat2"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Quantité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte2" id="qte2" />
+
+							<p>Plat numéro 3</p>
+							<select name="plat3" id="plat3"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Quantité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte3" id="qte3" />
+
+							<p>Plat numéro 4</p>
+							<select name="plat4" id="plat4"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Quantité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte4" id="qte4" />
+
+						</div>
+
+						<div class="ensplat2">
+
+							<p>Plat numéro 5</p>
+							<select name="plat5" id="plat5"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Quantité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte5" id="qte5" />
+
+							<p>Plat numéro 6</p>
+							<select name="plat6" id="plat6"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Quantité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte6" id="qte6" />
+
+							<p>Plat numéro 7</p>
+							<select name="plat7" id="plat7"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Quantité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte7" id="qte7" />
+
+							<p>Plat numéro 8</p>
+							<select name="plat8" id="plat8"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Quantité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte8" id="qte8" />
+
+						</div>
+
+						<div class="ensplat3">
+							<p>Plat numéro 9</p>
+							<select name="plat9" id="plat9"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Qunatité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte9" id="qte9" />
+
+							<p>Plat numéro 10</p>
+							<select name="plat10" id="plat10"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Quantité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte10" id="qte10" />
+
+							<p>Plat numéro 11</p>
+							<select name="plat11" id="plat11"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Quantité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte11" id="qte11" />
+
+							<p>Plat numéro 12</p>
+							<select name="plat12" id="plat12"><script type="text/javascript" src="../script/choixaliment.js"></script></select>
+							<p>Combien de verre / Quantité en gramme</p>
+							<input type="number" min="1" max="1000" step="1" name="qte12" id="qte12" />
+						</div>
+
+					</fieldset>
+				</div>
+				
+
+				<div class="dvalid">
+					<button class="valid" id="valid" onclick="cal();">Calcul</button>
+				</div>
+
+				<div class="resultat1" id="resultat1">
+					<h1>L'apport calorique est suffisant </h1>
+					<h1>Continuez comme ça demain !</h1>
+				</div>
+				<div class="resultat2" id="resultat2">
+					<h1>L'apport calorique est insuffisant</h1>
+					<h1>Vous devez revoir votre alimentation ou modifiez ce que vous avez mangé </h1>
+				</div>
+
+				<div class="resultat3" id="resultat3">
+					<h1>L'apport calorique est suffisant</h1>
+					<h1>Vous pourrez ensuite modifier votre alimentation quand vous aurez perdu du poids</h1>
+				</div>
+
+				<div class="resultat4" id="resultat4">
+					<h1>L'apport calorique est suffisant</h1>
+					<h1>Vous pourrez ensuite modifier votre alimentation quand vous aurez gagné du poids</h1>
+				</div>
+
+		</body>
+	</html>

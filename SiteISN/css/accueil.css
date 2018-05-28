@@ -1,0 +1,42 @@
+body{
+	background-color: #FFDEAD;
+}
+.clr{
+	text-align: center;
+	color: #DC143C;
+}
+.clr1{
+	text-align: center;
+	color: #008080;
+}
+.klory{
+	position: absolute;
+	left: 500px;
+	top: 5px;
+}
+.odepage2{
+	position: absolute;
+	left: 960px;
+	top: 5px;
+}
+.odepage1{
+	position: absolute;
+	left: 50px;
+	top: 5px;
+}
+.en{
+	position: absolute;
+	top: 200px;
+	left: 320px;
+}
+.en1{
+	position: absolute;
+	top: 320px;
+	left: 510px;
+	border: 2px #008080 dotted;
+}
+.winnie{
+	position: absolute;
+	top: 430px;
+	left: 490px;
+}

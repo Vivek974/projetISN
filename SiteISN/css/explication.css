@@ -1,0 +1,248 @@
+body{
+
+	background-color: #D2B48C;
+
+}
+
+
+
+}
+
+.intro{
+
+	font-family: Comic Sans MS;
+
+	text-align: center;
+
+	color: Gray;
+
+
+
+}
+
+.titre{
+
+	font-family: Comic Sans Ms;
+
+	text-align: center;
+
+	color: black;
+
+
+
+}
+
+.titre:hover{
+
+	color: #FF6347;
+
+}
+
+strong{
+
+	color: maroon;
+
+	text-decoration: underline;
+
+	
+
+
+
+
+
+
+
+}
+
+strong:hover{
+
+	font-size: x-large;
+
+	color: red;
+
+}
+
+
+
+div{
+
+	background-color: Wheat;
+
+}
+
+.div2, .div3, .div4{
+
+	border: 2px inset IndianRed;
+
+	background-color: LightYellow;
+
+ : 
+
+
+
+}
+
+
+
+.intro{
+
+	position: relative;
+
+	top: 170px;
+
+	text-align: center 
+
+
+
+}
+
+
+
+.div2{
+
+	position: relative;
+
+	top: 400px;
+
+}
+
+
+
+.div3{
+
+	position: relative;
+
+	top:450px;
+
+}
+
+.div4{
+
+	position: relative;
+
+	top: 500px;
+
+}
+
+.div1{
+
+	background-color:#D2B48C  ;
+
+	positi
+
+	on: relative;
+
+	top: 400px;
+
+	left: 200PX
+
+	
+
+}
+
+.phrase{
+
+	font-weight: bold;
+
+	color: tomato;
+
+	text-align: center
+
+	
+
+}
+
+.img1{
+
+	position: absolute;
+
+	left: 400px;
+
+	top:300px;
+
+	size:200px;
+
+align-content: center;
+
+
+}
+.img3{
+
+	position: absolute;
+
+	left: 200px;
+
+	top:97px;
+
+	size:200px;
+
+align-content: center;
+
+}
+}
+.img4a{
+
+	position: absolute;
+
+	left: 100px;
+
+align-content: center;
+{
+
+}
+
+.img5{
+
+	position: 
+
+	right: 800px;
+
+	size:100px;
+	padding-top: 50px;
+
+
+}
+
+
+}button{
+
+	background-color: #4CAF50;;
+
+	border: 2px solid #4CAF50;
+    
+	font-size: 20px;
+
+	float: center;
+
+	padding: 32px 16px;
+
+
+}
+
+
+
+button:hover{
+
+	font-size: 30px;
+
+	box-shadow: 0 12px 19px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+	transition: 0.9s;
+
+}
+.menunav{
+
+	padding-left: 300px;
+
+}
+
+.img4,.img4a,.img5{
+	padding-left: 200px;
+}
+
+
+
+
+
+
+
